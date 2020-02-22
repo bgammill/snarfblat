@@ -4,13 +4,13 @@
 
 API_URL="https://api.pushover.net/1/messages.json"
 
-help_text=$"Usage: pushover -m=message [options]
+help_text=$"Usage: snarfblat -m=message [options]
 
 Short Options:			Full Options:
 -m=\"hello, world!\"		--message=\"hello, world!\"
 -t=\"this is a test\"		--title=\"this is a test\"
--o=123456789			--token=123456789
--u=123456789			--user=123456789"
+-o=\"123456789\"			--token=\"123456789\"
+-u=\"123456789\"			--user=\"123456789\""
 
 load_conf () {
 	CONF_FILE="$HOME/.snarfblat.conf"
